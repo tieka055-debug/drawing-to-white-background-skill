@@ -1,4 +1,4 @@
 interface:
   display_name: "图纸转白底图 Skill"
-  short_description: "读取飞书或本地2D图纸，生成结构一致的白底实物图"
-  default_prompt: "读取指定飞书行或本地2D图纸，校验型号、针数与尺寸冲突，生成结构一致的无水印白底产品图。"
+  short_description: "结合预览图、内部型号与2D图纸生成真实白底产品图"
+  default_prompt: "读取指定飞书行，以预览图锁定外观，以内部型号和2D图纸校验变体，生成自然真实的无水印白底产品图。"
